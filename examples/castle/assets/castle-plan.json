@@ -1,0 +1,118 @@
+{
+  "name": "basic-shape-castle",
+  "description": "Primitive castle layout shared by the CLI, tests, skill, and TLA+ model.",
+  "actors": [
+    {
+      "label_suffix": "Keep",
+      "mesh_type": "CUBE",
+      "location": [0, 0, 240],
+      "scale": [4.0, 4.0, 4.8],
+      "color_role": "stone"
+    },
+    {
+      "label_suffix": "Gatehouse",
+      "mesh_type": "CUBE",
+      "location": [0, -1200, 160],
+      "scale": [2.4, 1.0, 3.2],
+      "color_role": "stone"
+    },
+    {
+      "label_suffix": "WallNorth",
+      "mesh_type": "CUBE",
+      "location": [0, 1400, 140],
+      "scale": [12.0, 1.0, 2.8],
+      "color_role": "stone"
+    },
+    {
+      "label_suffix": "WallSouthWest",
+      "mesh_type": "CUBE",
+      "location": [-700, -1400, 140],
+      "scale": [5.0, 1.0, 2.8],
+      "color_role": "stone"
+    },
+    {
+      "label_suffix": "WallSouthEast",
+      "mesh_type": "CUBE",
+      "location": [700, -1400, 140],
+      "scale": [5.0, 1.0, 2.8],
+      "color_role": "stone"
+    },
+    {
+      "label_suffix": "WallEast",
+      "mesh_type": "CUBE",
+      "location": [1400, 0, 140],
+      "scale": [1.0, 12.0, 2.8],
+      "color_role": "stone"
+    },
+    {
+      "label_suffix": "WallWest",
+      "mesh_type": "CUBE",
+      "location": [-1400, 0, 140],
+      "scale": [1.0, 12.0, 2.8],
+      "color_role": "stone"
+    },
+    {
+      "label_suffix": "TowerNorthWest",
+      "mesh_type": "CYLINDER",
+      "location": [-1400, 1400, 260],
+      "scale": [2.4, 2.4, 5.8],
+      "color_role": "stone"
+    },
+    {
+      "label_suffix": "TowerNorthEast",
+      "mesh_type": "CYLINDER",
+      "location": [1400, 1400, 260],
+      "scale": [2.4, 2.4, 5.8],
+      "color_role": "stone"
+    },
+    {
+      "label_suffix": "TowerSouthWest",
+      "mesh_type": "CYLINDER",
+      "location": [-1400, -1400, 260],
+      "scale": [2.4, 2.4, 5.8],
+      "color_role": "stone"
+    },
+    {
+      "label_suffix": "TowerSouthEast",
+      "mesh_type": "CYLINDER",
+      "location": [1400, -1400, 260],
+      "scale": [2.4, 2.4, 5.8],
+      "color_role": "stone"
+    },
+    {
+      "label_suffix": "RoofKeep",
+      "mesh_type": "CONE",
+      "location": [0, 0, 880],
+      "scale": [4.8, 4.8, 2.4],
+      "color_role": "roof"
+    },
+    {
+      "label_suffix": "RoofNorthWest",
+      "mesh_type": "CONE",
+      "location": [-1400, 1400, 860],
+      "scale": [3.0, 3.0, 2.0],
+      "color_role": "roof"
+    },
+    {
+      "label_suffix": "RoofNorthEast",
+      "mesh_type": "CONE",
+      "location": [1400, 1400, 860],
+      "scale": [3.0, 3.0, 2.0],
+      "color_role": "roof"
+    },
+    {
+      "label_suffix": "RoofSouthWest",
+      "mesh_type": "CONE",
+      "location": [-1400, -1400, 860],
+      "scale": [3.0, 3.0, 2.0],
+      "color_role": "roof"
+    },
+    {
+      "label_suffix": "RoofSouthEast",
+      "mesh_type": "CONE",
+      "location": [1400, -1400, 860],
+      "scale": [3.0, 3.0, 2.0],
+      "color_role": "roof"
+    }
+  ]
+}
